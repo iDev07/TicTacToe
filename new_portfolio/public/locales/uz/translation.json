@@ -1,0 +1,41 @@
+{
+  "navbar1": "Bosh sahifa",
+  "navbar2": "Ma'lumot",
+  "navbar3": "Xizmatlar",
+  "navbar4": "Portfolio",
+  "navbar5": "Bog'lanish",
+  "home": {
+    "snallTitle": "O'ZGACHA OLAMIMGA XUSH KELIBSIZ",
+    "name": "Salom , Mening ismim Diyor",
+    "loaction": "Men O'zbekistondanman",
+    "profession": "Frontend Developer"
+  },
+  "about": {
+    "header": "Men haqimda",
+    "some-text": "Siz uchun qiziqmi? Agar shunday bo'lsa, men haqimda gaplashamiz. Men Junior Frontend Developerman. Menda chiroyli va funktsional veb-ilovalarni yaratish ishtiyoqi bor. Men o'z-o'zini motivatsiya qiladigan va o'zini o'zi boshqaradigan shaxsman. Men har doim yangi texnologiyalar va tillarni o'rganishga tayyor bo'lgan jamoaviy o'yinchiman. Frontend ishlab chiqishdagi tajribam 1 yil. Menda ko'plab veb-saytlar va men ishlab chiqqan ilovalar mavjud.Men S.H.Sirojiddinov nomli litseyda o'qiyman. Kelajakda full-stack developer bo'laman degan umiddaman.",
+    "download": "Yuklab olish",
+    "contact_me": "Bog'lanish"
+  },
+  "services": {
+    "header": "Mendagi HardSkillar",
+    "small_header": "Men nima qila olishimni ko'rishingiz mumkin",
+    "s1": "Jamoa lideri",
+    "ab1": "Menimcha, bu katta mas'uliyat. Menda jamoani boshqarish boyicha tajriba bor.",
+    "s2": "Frontend Development",
+    "ab2": "Men siz uchun juda chiroyli UI yarata olaman. Agar sizga yangi veb-sayt yoki ilova kerak bo'lsa, men sizga yordam beraman",
+    "s3": "Web dasturlashni o'rgatish",
+    "ab3": "Men 2021 yildan beri bolalarga veb-ishlab chiqish bo'yicha dars beraman."
+  },
+  "portfolio": {
+    "header": "Mening oxirgi loyihalarim",
+    "some-text": "Bu loyihalarning ichida jamoaviy qilinganlari ham bor",
+    "p_type1": "Korporativ veb-sayt",
+    "p_type2": "Ta'limiy veb-sayt",
+    "p1": "TOPALANG HPD Holding kompaniyasi uchun",
+    "p2": "BUILDING MEGA SERVICE kompaniyasi uchun",
+    "p3": "O'zbek tilini o'rgatish uchun",
+    "p4": "Gustoso Pizza italyan restaurant uchun",
+    "p5": "HERCULES_SERVICE mashina ustaxonasi uchun",
+    "p6": "SOFTPLUS firmasining web sayti"
+  }
+}

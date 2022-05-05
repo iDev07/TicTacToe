@@ -1,0 +1,110 @@
+.MobileNav {
+  @media all and (max-width: 992px) {
+    display: block;
+  }
+  display: none;
+  .wrapper {
+    background-color: rgba(0, 0, 0, 0.678);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    z-index: 11000;
+    padding: 5px 0;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    .left_box {
+      width: 100%;
+      .logo {
+        padding: 8px;
+        img {
+          width: 120px;
+          height: 45px;
+        }
+      }
+    }
+    .right_box {
+      width: 100%;
+      .select {
+        position: absolute;
+        top: 20px;
+        right: 65px;
+      }
+    }
+  }
+}
+.socials {
+  position: absolute;
+  bottom: 30px;
+  left: 25px;
+  @media all and (max-width: 992px) {
+    display: block;
+  }
+  display: none;
+  ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    li {
+      list-style-type: none;
+      svg {
+        font-size: 30px;
+        color: #f3bc0f;
+      }
+    }
+  }
+}
+:root {
+  --background-gradient: #ffc222;
+  --gray: #ffc222;
+  --darkgray: #ffc222;
+}
+select {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 1em;
+  color: #fff;
+  // background-color: var(--darkgray);
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  width: 4em;
+  height: 2em;
+  border-radius: 0.25em;
+  overflow: hidden;
+  select {
+    option {
+      // padding: 15px 0 !important;
+      margin: 10px 0 !important;
+      background-color: rgba(0, 0, 0, 0.705);
+      backdrop-filter: blur(10px) !important;
+      color: #fff !important;
+    }
+  }
+}
+.select::after {
+  content: "\25BC";
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.4em;
+  // background-color: #ffc222;
+  transition: 0.25s all ease;
+  pointer-events: none;
+}
+.select:hover::after {
+  color: blue;
+}
