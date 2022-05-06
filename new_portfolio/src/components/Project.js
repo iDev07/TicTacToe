@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 import { Projects } from "../utils/helpers";
-import Project1 from "../img/portfolio-1.jpg";
+import Project1 from "../img/project_1.jpg";
 import Project2 from "../img/project_2.jpg";
 import Project3 from "../img/project_3.jpg";
 import Project4 from "../img/sample.PNG";
@@ -22,9 +22,7 @@ function Project() {
           <Projects
             title={"For TO'PALANG HPD Holding"}
             type={"Corporative website"}
-            img={
-              "http://159.65.1.107:7002/static/media/footer.024b301760f4f23b1f0a.png"
-            }
+            img={Project1}
             link={"https://topalanghpdholding.uz"}
           />
           <Projects
